@@ -27,7 +27,7 @@
 	const allTags = $derived([
 		defaultTag,
 		...new Set(
-			data.posts
+			allPosts
 				.flatMap((post) => post.tags || [])
 				.map((tag) => tag.trim())
 				.filter(Boolean)
