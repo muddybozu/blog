@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+//============================================================
+//  Variables
+//============================================================
+
+:root {
+	--main-color: #373737; // 墨[SUMI]
+	--sub-color: #fffffe; // 白[SHIRO]
+	--accent-color: #0c5a85; // 裏[URA]
+	--neutral-high: #76726f; //消炭[KESHIZUMI]
+	--neutral-main: #bdbebe; // 薄墨[USUZUMI]
+	--neutral-low: #e4e5e6; // 白金[HAKKIN]
+	--neutral-faint: #f6f6f6; // 銀白色[GINHAKUSHOKU]
+	--info-main: #007f89;
+	--info-sub: #eff5f5;
+	--warning-main: #d15a20;
+	--warning-sub: #fff7ed;
+
+	--font-noto: 'Noto Sans JP', sans-serif;
+	--font-mono: 'Intel One Mono', monospace;
+
+	--duration-normal: 0.2s;
+}
+
+//============================================================
+//  Base
+//============================================================
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--font-noto);
+	margin: 0;
+	padding: 0;
+	font-size: 1.4rem;
+	color: var(--main-color);
+	background: var(--neutral-faint);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	word-break: auto-phrase;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin: 0;
+}
+
+a {
+	color: var(--accent-color);
+	text-decoration: underline;
+
+	@media (hover) {
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+pre {
+	margin: 0;
+}
+
+figure {
+	margin: 0;
+}
+
+blockquote {
+	margin: 0;
+}
