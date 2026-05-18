@@ -83,7 +83,7 @@
 		gap: 4rem;
 		max-width: 80rem;
 		margin: 0 auto;
-		padding: 4rem;
+		padding: 4rem 1.6rem;
 	}
 
 	header {
