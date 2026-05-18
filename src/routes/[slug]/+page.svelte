@@ -79,6 +79,10 @@
 			color: var(--main-color);
 			letter-spacing: 0.04em;
 			line-height: 1.4;
+
+			@media (max-width: 767px) {
+				font-size: 2.8rem;
+			}
 		}
 
 		&__info {

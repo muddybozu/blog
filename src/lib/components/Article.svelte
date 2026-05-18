@@ -96,23 +96,43 @@
 					height: 0;
 					border-top: var(--border-width) solid var(--main-color);
 				}
+
+				@media (max-width: 767px) {
+					font-size: 2.4rem;
+				}
 			}
 
 			h3 {
 				font-size: 2.2rem;
 				font-weight: 700;
+
+				@media (max-width: 767px) {
+					font-size: 2rem;
+				}
 			}
 
 			h4 {
 				font-size: 2rem;
+
+				@media (max-width: 767px) {
+					font-size: 1.8rem;
+				}
 			}
 
 			h5 {
 				font-size: 1.8rem;
+
+				@media (max-width: 767px) {
+					font-size: 1.6rem;
+				}
 			}
 
 			h6 {
 				font-size: 1.6rem;
+
+				@media (max-width: 767px) {
+					font-size: 1.4rem;
+				}
 			}
 
 			p {
@@ -120,6 +140,10 @@
 				line-height: 1.8;
 				letter-spacing: 0.06em;
 				word-break: auto-phrase;
+
+				@media (max-width: 767px) {
+					font-size: 1.4rem;
+				}
 			}
 
 			a {
