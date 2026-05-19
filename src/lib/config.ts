@@ -1,5 +1,6 @@
 // タグとラベルの対応表
 const TAG_MAP: Record<string, string> = {
+	ai: 'AI',
 	css: 'CSS',
 	deno: 'Deno',
 	frontend: 'フロントエンド',
