@@ -1,0 +1,25 @@
+---
+title: 'Anima'
+description: 'Animaをローカルで動かしてみる。'
+updatedDate: '2026-05-31'
+tags: ['ai']
+published: true
+pinned: false
+---
+
+## Animaとは？
+
+ComfyUIとCircleStone Labsが共同開発したアニメ特化型の画像生成モデル。
+
+## 動かしてみた
+
+ComfyUIのテンプレート「Anima Base v1：テキストから画像へ」をベースに、Anima Turbo LoRAを経由させて高速化し、RealESRGAN_x4plusでアップスケールしてみた。
+
+画像サイズは960x704を指定（アップスケールが適用されるので最終的には4倍の3840x2816）したところ、steps「4」の指定だとわずか80秒前後でそこそこのクオリティの画像が出てきた。
+
+![出力例](/src/lib/assets/posts/anima/steps4.webp)
+
+steps「8」の指定だと120秒前後かかるが、クオリティは格段に上がる印象。
+
+![出力例](/src/lib/assets/posts/anima/steps8.webp)
+
