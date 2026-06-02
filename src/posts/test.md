@@ -130,4 +130,4 @@ greet('Hello.');
 
 ## 画像
 
-![ダミー画像](/src/lib/assets/posts/test/dummy.png)
+![ダミー画像](/assets/img/posts/test/dummy.png)
