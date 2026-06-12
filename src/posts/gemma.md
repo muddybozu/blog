@@ -1,7 +1,7 @@
 ---
-title: 'Gemma 4をローカルで動かす'
-description: 'Gemma 4をローカルで動かして、どういうことができるか検証する。'
-updatedDate: '2026-05-26'
+title: 'Gemma 4 E2BをローカルAIエージェントとして使ってみる'
+description: 'Gemma 4 E2Bをローカルで動かして、どういうことができるか検証する。'
+updatedDate: '2026-06-06'
 tags: ['ai']
 published: true
 pinned: false
@@ -9,7 +9,7 @@ pinned: false
 
 ## Gemma 4とは？
 
-Googleが公開しているオープンAIモデル。
+Googleが公開しているAIモデル。
 
 ## LM Studioで動かしてみた
 
