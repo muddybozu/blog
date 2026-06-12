@@ -1,13 +1,13 @@
 ---
-title: 'Anima'
-description: 'Animaをローカルで動かしてみる。'
-updatedDate: '2026-05-31'
+title: 'Anima Base v1.0でイラストをつくってみる'
+description: '画像生成モデル「Anima Base v1.0」をローカルで動かして、イラストをつくってみる。'
+updatedDate: '2026-06-06'
 tags: ['ai']
 published: true
 pinned: false
 ---
 
-## Animaとは？
+## Anima Base v1.0とは？
 
 ComfyUIとCircleStone Labsが共同開発したアニメ特化型の画像生成モデル。
 
